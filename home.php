@@ -35,8 +35,10 @@ include 'components/wishlist_cart.php';
    
 <?php include 'components/user_header.php'; ?>
 
-<div class="home-bg">
-
+<div class="home-bg" style=" 
+   background: url('images/home-bg.jpg') no-repeat;
+   background-size: cover;
+   background-position: center;">
 <section class="home">
 
    <div class="swiper home-slider">
@@ -53,7 +55,8 @@ include 'components/wishlist_cart.php';
       </div>
       <div class="swiper-pagination"></div>
 
-   </div>
+</div>
+</div>
 
 </section>
 
@@ -61,7 +64,7 @@ include 'components/wishlist_cart.php';
 
 <section class="category">
 
-   <h1 class="heading"> Một số thể loại sách nổi bật </h1>
+   <h2 class="heading"> Một số thể loại sách nổi bật </h2>
 
    <div class="swiper category-slider">
 
